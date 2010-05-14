@@ -3,6 +3,14 @@
 
 Hides the given element*(s)* and inserts a link to show them again.
 
+## Usage
+
+Hides all `<table>`'s on the page and puts a "Show Me" anchor in their place. Clicking on a "Show Me" reveals that specific table.
+
+	$("table").showLink("Show Me");
+
+See `spec/unit/spec.js` for more examples.
+
 ## License 
 
 (The MIT License)
