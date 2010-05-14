@@ -1,5 +1,4 @@
+0.2
+===
 
-0.0.1 / YYYY-MM-DD
-------------------
-
-* Initial release
+Public release
