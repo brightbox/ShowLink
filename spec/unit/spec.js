@@ -18,6 +18,11 @@ describe 'showLink()'
     html.should.have_tag("a.show-next-element")
   end
 
+  it 'should insert a valid anchor'
+    anchor.should.have_attr("href")
+    anchor.attr("href").should.be "#"
+  end
+
   it 'should insert the anchor just before the specified element'
     anchor.next().attr("tagName").toLowerCase().should.be "fieldset"
   end
