@@ -67,5 +67,9 @@ describe 'showLink()'
       html.should_not.have_tag("a.show-next-element")
     end
 
+    it 'should return false from the click handler'
+      location.href.should_not.match(/#/)
+    end
+
   end
 end
